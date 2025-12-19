@@ -21,7 +21,7 @@ func main() {
 		panic(err)
 	}
 
-	result := schema.GenFile("schemagen")
+	result := schema.GenFile("structschema")
 
 	fset := token.NewFileSet()
 	var output strings.Builder
@@ -30,5 +30,5 @@ func main() {
 		panic(err)
 	}
 
-	os.WriteFile("generated.go", []byte(output.String()), os.ModePerm)
+	os.WriteFile("structschema.go", []byte(output.String()), os.ModePerm)
 }
