@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"codeberg.org/carlosmpv/structschema/pkg/generator"
+	"github.com/carlosmpv/structschema/pkg/generator"
 	"github.com/stretchr/testify/assert"
 )
 

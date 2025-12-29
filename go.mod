@@ -1,4 +1,4 @@
-module codeberg.org/carlosmpv/structschema
+module github.com/carlosmpv/structschema
 
 go 1.25.3
 
