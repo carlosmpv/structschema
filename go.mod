@@ -1,4 +1,4 @@
-module codeberg.org/carlosmpv/schemagen
+module codeberg.org/carlosmpv/structschema
 
 go 1.25.3
 

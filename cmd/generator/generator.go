@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"codeberg.org/carlosmpv/schemagen/pkg/generator"
+	"codeberg.org/carlosmpv/structschema/pkg/generator"
 )
 
 func main() {
